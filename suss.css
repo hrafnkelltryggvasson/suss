@@ -1,6 +1,6 @@
 body {
 
-	background: url(https://images.unsplash.com/photo-1463704131914-97e5aaa0e339?dpr=1&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=);
+	background: url(https://images.unsplash.com/photo-1463704131914-97e5aaa0e339?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&s=a60bdeb5f8a831cd5f0a8561f78eba6a);
 	background-size: cover;
 	color: white;
 	padding-top: 50px;
@@ -9,6 +9,13 @@ body {
 html {
 	height:100%;
 }
+
+.navbar .navbar-colour .navbar-fixed-top {
+  background-color: #2c3e50;
+  border-color:  #2c3e50;
+}
+
+
 .jumbotron {
 	color: black;
 	padding-top: 50px;
@@ -17,7 +24,6 @@ html {
 }
 .frontimg { 
 	   height: 400px
-  
 	  vertical-align: 0%;
 	  text-align: center;
 
@@ -53,12 +59,42 @@ li .active {
 	background:white;
 	height: 50px
 }
-.navbar-inverse {
-	background:#2c3e50;
+
+.footer-left {
+   color: black;
+   text-align: center;
+   padding-top: 10px
 }
 
+.footer-center {
+  text-align: center;
+  color: black;
+  padding-top: 10px
 
-.navbar-inverse .navbar-nav>li>a {
+  
+}
+.footer-right {
+  text-align: center;
+  color: black;
+  padding-top: 10px
+}
+
+}
+
+.navbar .navbar-colour .navbar-fixed-top {
+  background-color: #2c3e50;
+  border-color:  #2c3e50;
+}
+.navbar-inverse {
+  background-color: #2c3e50;
+  color: white ;
+
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-colour .navbar-nav>li>a {
 	color:white;
 }
 
