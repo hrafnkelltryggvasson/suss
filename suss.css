@@ -18,7 +18,7 @@ html {
 
 .jumbotron {
 	color: black;
-	padding-top: 50px;
+	padding-top: 35px;
     margin-bottom: 0px;
     background: rgba(255, 238, 210, 0.9);
 }
@@ -45,7 +45,9 @@ h1 {
 }
 
 
-
+.starfsfolk {
+  padding-top: 40px;
+}
 hr {
 	width: 400px;
 	border-top: 1px solid #f8f8f8;
